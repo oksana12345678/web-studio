@@ -1,0 +1,96 @@
+<!-- modal-window -->
+
+<div class="backdrop-form" id="contact-form">
+  <div class="window-form">
+    <button type="button" class="icon-close-container" id="closing">
+      <span class="visually-hidden">close</span>
+      <svg class="icon-close" width="8" height="8">
+        <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+      </svg>
+    </button>
+    <p class="form-disc">Leave your contacts and we will call you back</p>
+    <form class="form-input">
+      <div class="container-input">
+        <label for="user-name" class="backdrop-lebel">Name </label>
+
+        <div class="container-input-svg">
+          <input
+            type="text"
+            class="backdrop-item"
+            name="user-name"
+            id="user-name"
+            required
+          />
+          <svg class="icon-soc" width="18" height="24">
+            <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+          </svg>
+        </div>
+      </div>
+
+      <div class="container-input">
+        <label class="backdrop-lebel" for="user-phone">Phone</label>
+        <div class="container-input-svg">
+          <input
+            class="backdrop-item"
+            type="tel"
+            name="user-phone"
+            id="user-phone"
+            required
+          />
+          <svg class="icon-soc" width="18" height="24">
+            <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+          </svg>
+        </div>
+      </div>
+
+      <div class="container-input">
+        <label for="user-email" class="backdrop-lebel">Email</label>
+        <div class="container-input-svg">
+          <input
+            type="email"
+            class="backdrop-item"
+            name="user-email"
+            id="user-email"
+            required
+          />
+          <svg class="icon-soc" width="18" height="24">
+            <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+          </svg>
+        </div>
+      </div>
+
+      <div class="container-input-comment">
+        <label class="backdrop-lebel" for="user-comment"> Comment</label>
+        <textarea
+          name="user-comment"
+          id="user-comment"
+          cols="30"
+          rows="10"
+          class="text-area"
+          placeholder="Text input"
+        ></textarea>
+      </div>
+
+      <div class="polisy-box">
+        <input
+          class="visually-hidden check-box"
+          type="checkbox"
+          value="true"
+          name="user-privacy"
+          id="user-privacy"
+        />
+        <label class="policy-accept" for="user-privacy">
+          <span class="icon-check-container">
+            <svg class="icon-check" width="10" height="8">
+              <use href="./images/icons.svg#icon-Property-1click"></use>
+            </svg>
+          </span>
+          I accept the terms and conditions of the
+          <a class="polisy-link" href="">Privacy Policy</a></label
+        >
+      </div>
+
+      <button class="button-modal" type="submit">Send</button>
+    </form>
+  </div>
+</div>

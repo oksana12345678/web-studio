@@ -1,73 +1,70 @@
-<div class="mobile-menu-wrapper" id="menu">
-  <div class="container mobile-menu-container">
-    <div class="mobile-menu-top">
-      <a class="mobile-menu-logo" href="./manu-mb.html">yachtjet</a>
-      <button
-        class="mobile-menu-close-btn"
-        id="close"
-        type="button"
-        aria-label="close"
-      >
-        <svg class="mobile-menu-close-btn-icon" width="28" height="28">
-          <use href="./img/sprite.svg#close-mobile-icon"></use>
-        </svg>
-      </button>
-    </div>
-    <nav class="mobile-menu-navigation">
-      <ul class="mobile-menu-list">
-        <li class="mobile-menu-item menu-link-add-color">
-          <a data-goto="#about-us" class="mobile-menu-link" href="#about-us"
-            >ABOUT</a
-          >
-        </li>
-        <li class="mobile-menu-item">
-          <a
-            data-goto="#yacht-catalog"
-            class="mobile-menu-link"
-            href="#yacht-catalog"
-            >YACHTS</a
-          >
-        </li>
-        <li class="mobile-menu-item">
-          <a data-goto="#reviews" class="mobile-menu-link" href="#reviews"
-            >REVIEWS</a
-          >
-        </li>
-      </ul>
-    </nav>
-    <ul class="mobile-social-list">
-      <li class="mobile-social-list-item">
-        <a
-          href="https://www.instagram.com/goitclub/"
-          target="_blank"
-          class="mobile-social-list-link"
-          ><svg class="mobile-social-list-icon" width="24" height="24">
-            <use href="./img/sprite.svg#instagram-icon"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="mobile-social-list-item">
-        <a
-          href="https://www.youtube.com/c/GoIT"
-          target="_blank"
-          class="mobile-social-list-link"
+<!--menu-window -->
+
+<div class="menu-window" id="menu">
+  <nav class="nav-window">
+    <button type="button" class="icon-close-container backgr" id="close">
+      <span class="visually-hidden">close</span>
+
+      <svg class="icon-close" width="8" height="8">
+        <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+      </svg>
+    </button>
+    <ul class="container-menu">
+      <li class="current">
+        <a data-goto="#hero" href="#hero" class="container-menu-items"
+          >Studio</a
         >
-          <svg class="mobile-social-list-icon" width="24" height="24">
-            <use href="./img/sprite.svg#youtube-icon"></use>
-          </svg>
-        </a>
       </li>
-      <li class="mobile-social-list-item">
-        <a
-          href="https://www.facebook.com/goITclub/"
-          target="_blank"
-          class="mobile-social-list-link"
+      <li>
+        <a data-goto="#portfolio" href="#portfolio" class="container-menu-items"
+          >Portfolio</a
         >
-          <svg class="mobile-social-list-icon" width="24" height="24">
-            <use href="./img/sprite.svg#facebook-icon"></use>
-          </svg>
-        </a>
+      </li>
+      <li>
+        <a data-goto="#subscr" href="#subscr" class="container-menu-items"
+          >Subscribe</a
+        >
       </li>
     </ul>
-  </div>
+  </nav>
+  <address class="container-address">
+    <ul class="container-contacts">
+      <li>
+        <a href="mailto:info@devstudio.com" class="container-contacts-items"
+          >info@devstudio.com
+        </a>
+      </li>
+      <li>
+        <a href="tel:+110001111111" class="container-contacts-items"
+          >+11 (000) 111-11-11</a
+        >
+      </li>
+    </ul>
+  </address>
+  <ul class="container-social-menu">
+    <li class="social-list">
+      <a href="" target="_blank" class="link-social" title="instagram"
+        ><svg class="icon-social" width="16" height="16">
+          <use href="./images/icons.svg#icon-instagram-2"></use></svg
+      ></a>
+    </li>
+    <li class="social-list">
+      <a href="" target="_blank" class="link-social" title="twitter">
+        <svg class="icon-social" width="16" height="16">
+          <use href="./images/icons.svg#icon-twitter-1"></use></svg
+      ></a>
+    </li>
+    <li class="social-list">
+      <a href="" target="_blank" class="link-social" title="facebook"
+        ><svg class="icon-social" width="16" height="16">
+          <use href="./images/icons.svg#icon-facebook-1"></use></svg
+      ></a>
+    </li>
+    <li class="social-list">
+      <a href="" target="_blank" class="link-social" title="linkedin">
+        <svg class="icon-social" width="16" height="16">
+          <use href="./images/icons.svg#icon-linkedin-1"></use></svg
+      ></a>
+    </li>
+  </ul>
 </div>
