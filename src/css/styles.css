@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
   color: #434455;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 /* main style */
 
@@ -87,7 +87,7 @@ img {
 .logo {
   text-decoration: none;
   color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17em;
@@ -98,7 +98,7 @@ img {
 }
 .logo-stud {
   color: #2e2f42;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17em;
@@ -508,7 +508,7 @@ img {
   border: 1px solid #4d5ae5;
 }
 .subscribe-bttn {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   border-radius: 4px;
   background-color: #4d5ae5;
   color: #fff;
@@ -676,7 +676,7 @@ img {
   position: relative;
 }
 .icon-tel {
-  content: "";
+  content: '';
   position: absolute;
   top: 11px;
   left: 16px;
@@ -690,7 +690,7 @@ img {
   margin-bottom: 8px;
 }
 .icon-email {
-  content: "";
+  content: '';
   position: absolute;
   top: 11px;
   left: 16px;
@@ -764,7 +764,7 @@ img {
   margin-left: 22px;
 }
 .button-modal {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: block;
   color: #fff;
   text-align: center;
@@ -898,7 +898,7 @@ img {
     position: relative;
   }
   .menu-studio::after {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -1096,7 +1096,7 @@ img {
     letter-spacing: 0.02em;
   }
   .menu-studio::after {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -1253,7 +1253,7 @@ img {
     position: relative;
   }
   .icon-tel {
-    content: "";
+    content: '';
     position: absolute;
     top: 11px;
     left: 16px;
@@ -1267,7 +1267,7 @@ img {
     margin-bottom: 8px;
   }
   .icon-email {
-    content: "";
+    content: '';
     position: absolute;
     top: 11px;
     left: 16px;
@@ -1288,7 +1288,7 @@ img {
     margin-left: 0;
   }
   .button-madal {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: block;
     color: #fff;
     text-align: center;
