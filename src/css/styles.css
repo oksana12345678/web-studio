@@ -305,9 +305,13 @@ img {
   border-radius: 0px 0px 4px 4px;
   background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    0px 4px 4px 0px rgba(46, 47, 66, 0.16),
+    0px 4px 8px 0px rgba(46, 47, 66, 0.08);
   max-width: 264px;
+  transition: box-shadow 0.3s ease;
+}
+.container-team-items:hover {
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.193);
 }
 .container-desc-card {
   padding: 32px 0;
@@ -394,7 +398,7 @@ img {
   letter-spacing: 0.32px;
   transform: translateY(100%);
   transition-property: transform;
-  transition-duration: 250ms;
+  transition-duration: 800ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-list-items:hover .back,
